@@ -238,6 +238,13 @@ body {
 }
 
 @media (min-width: 360px) and (max-width: 900px) {
+  body {
+    background-image: url("/images/bg-pattern-top-mobile.svg"),
+      url("/images/bg-pattern-bottom-mobile.svg");
+    background-position: left -5vw top 0vh, right 2vw bottom 10vh;
+    background-repeat: no-repeat;
+  }
+
   #main-content {
     max-width: 350px;
     margin: auto;
