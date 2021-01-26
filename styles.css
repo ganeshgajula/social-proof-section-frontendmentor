@@ -20,13 +20,13 @@ body {
 }
 
 #main-content {
-  max-height: 100vh;
+  /* max-height: 100vh; */
   max-width: 1000px;
   margin: auto;
 }
 
 #header-content {
-  max-height: 50vh;
+  /* max-height: 50vh; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,7 +68,7 @@ body {
   display: flex;
   /* justify-content: space-between; */
   margin-top: 4rem;
-  max-height: 40vh;
+  /* max-height: 40vh; */
 }
 
 .review {
@@ -154,4 +154,80 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 500px) {
+  #main-content {
+    max-width: 350px;
+    margin: auto;
+  }
+
+  #header-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #left-header-area h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #left-header-area p {
+    text-align: center;
+    font-size: 0.94rem;
+    margin-bottom: 2rem;
+  }
+
+  .rating-one {
+    margin-right: 0;
+  }
+
+  .rating-two {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .rating-three {
+    margin-left: 0rem;
+  }
+
+  .rating-icons {
+    display: block;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .rating-area {
+    width: 260px;
+  }
+
+  .rating-area p {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  #reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .review {
+    margin-right: 0;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .user-info {
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+  }
+  .review-content {
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+  }
 }
