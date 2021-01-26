@@ -156,7 +156,83 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 359px) {
+  #main-content {
+    max-width: 260px;
+    margin: auto;
+  }
+
+  #header-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #left-header-area h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #left-header-area p {
+    text-align: center;
+    font-size: 0.94rem;
+    margin-bottom: 2rem;
+  }
+
+  .rating-one {
+    margin-right: 0;
+  }
+
+  .rating-two {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .rating-three {
+    margin-left: 0rem;
+  }
+
+  .rating-icons {
+    display: block;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .rating-area {
+    width: 160px;
+  }
+
+  .rating-area p {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  #reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .review {
+    margin-right: 0;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .user-info {
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+  }
+  .review-content {
+    max-width: 240px;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 900px) {
   #main-content {
     max-width: 350px;
     margin: auto;
@@ -227,6 +303,84 @@ body {
   }
   .review-content {
     max-width: 320px;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  #main-content {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  #header-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #left-header-area h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #left-header-area p {
+    text-align: center;
+    font-size: 0.94rem;
+    margin-bottom: 2rem;
+  }
+
+  .rating-one {
+    margin-right: 0;
+  }
+
+  .rating-two {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .rating-three {
+    margin-left: 0rem;
+  }
+
+  .rating-icons {
+    display: block;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .rating-area {
+    width: 360px;
+  }
+
+  .rating-area p {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  #reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .review {
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .user-info {
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+  }
+  .review-content {
+    max-width: 400px;
     margin: auto;
     text-align: center;
   }
