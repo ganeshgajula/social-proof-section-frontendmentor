@@ -1,6 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-very-dark-magenta: hsl(300, 43%, 22%);
+  --primary-soft-pink: hsl(333, 80%, 67%);
+  --neutral-dark-grayish-magenta: hsl(303, 10%, 53%);
+  --neutral-light-grayish-magenta: hsl(300, 24%, 96%);
+  --neutral-white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+#main-content {
+  max-height: 100vh;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#header-content {
+  max-height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left-header-area {
+  max-width: 400px;
+}
+
+#left-header-area h1 {
+  font-size: 2.4rem;
+  color: var(--primary-very-dark-magenta);
+  margin-bottom: 1rem;
+}
+
+#left-header-area p {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+.rating-area p {
+  display: inline;
+  font-weight: bold;
+  color: var(--primary-very-dark-magenta);
+}
+
+.rating-icons {
+  display: inline;
+  margin-right: 1.5rem;
+}
+
+.rating-icons img {
+  margin-right: 0.4rem;
+}
+
+#reviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-info {
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 12rem;
+  margin: 1rem 0;
+}
+
+.user-image {
+  border-radius: 50%;
+  max-width: 2.5rem;
+}
+
+.review-content {
+  max-width: 250px;
+  font-size: 0.72rem;
+}
+
+.rating-area {
+  border: 1px solid transparent;
+  background-color: var(--neutral-light-grayish-magenta);
+  padding: 0.8rem 3rem 0.8rem 2rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.rating-two {
+  margin-left: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 2rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
