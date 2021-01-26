@@ -30,6 +30,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3.5rem;
+  max-width: 955px;
 }
 
 #left-header-area {
@@ -64,26 +66,63 @@ body {
 
 #reviews {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  margin-top: 4rem;
+  max-height: 40vh;
+}
+
+.review {
+  background-color: var(--primary-very-dark-magenta);
+  color: var(--neutral-white);
+  padding: 2.2rem 1.5rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+}
+
+.review-one {
+  margin-bottom: 2rem;
+}
+
+.review-two {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.review-three {
+  margin-top: 2rem;
 }
 
 .user-info {
   height: 5vh;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   max-width: 12rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0 1.8rem 0;
+}
+
+.user-info h3 {
+  font-size: 0.76rem;
+  margin-bottom: 0.3rem;
+}
+
+.user-info p {
+  color: var(--primary-soft-pink);
+  font-weight: lighter;
+  font-size: 0.75rem;
 }
 
 .user-image {
   border-radius: 50%;
   max-width: 2.5rem;
+  margin-right: 1.5rem;
 }
 
 .review-content {
   max-width: 250px;
-  font-size: 0.72rem;
+  font-size: 0.695rem;
+  line-height: 1.2rem;
+  font-weight: normal;
 }
 
 .rating-area {
@@ -95,8 +134,17 @@ body {
   border-radius: 0.4rem;
 }
 
+.rating-one {
+  margin-right: 6rem;
+}
+
 .rating-two {
-  margin-left: 1rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
+}
+
+.rating-three {
+  margin-left: 5rem;
 }
 
 .attribution {
